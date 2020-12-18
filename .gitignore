@@ -11,7 +11,7 @@
 /tmp/
 .rubocop.yml
 /bin/lap.rb
-/jruby-getting-started
+jruby-getting-started/
 
 # Used by dotenv library to load environment variables.
 # .env
