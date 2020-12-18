@@ -36,6 +36,7 @@ module RuboFitAPI
       send_that(msg_after3, bot, message) if (time_later % 180).zero?
       response = bot.api.getUpdates
       last_command = response['result'][-1]['message']['text']
+      @flag = false
       next if %w[/remindme].include? last_command
 
       @flag ||= false
@@ -46,9 +47,7 @@ module RuboFitAPI
         send_that('🤖📡 I\'m Listening', bot, message) if %w[/stop].include? last_command
         break
       elsif !@flag
-        bot.logger.info(@flag)
         @flag = !@flag
-        bot.logger.info(@flag)
         send_that('You could /stop me first.', bot, message)
         next
       end
