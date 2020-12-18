@@ -27,6 +27,7 @@ module RuboFitAPI
     sleep(4)
     send_that('🤖🦾 You can count on me !', bot, message)
     time_now = Time.new
+    @flag = false
     loop do
       sleep(1)
       time_later = (Time.new - time_now).to_i
@@ -36,7 +37,6 @@ module RuboFitAPI
       send_that(msg_after3, bot, message) if (time_later % 180).zero?
       response = bot.api.getUpdates
       last_command = response['result'][-1]['message']['text']
-      @flag = false
       next if %w[/remindme].include? last_command
 
       @flag ||= false
@@ -48,7 +48,7 @@ module RuboFitAPI
         break
       elsif !@flag
         @flag = !@flag
-        send_that('You could /stop me first.', bot, message)
+        send_that('Rather to /stop me first.', bot, message)
         next
       end
     end

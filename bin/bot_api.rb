@@ -1,7 +1,7 @@
 require 'telegram/bot'
 require_relative '../lib/rubofit_api'
 
-token = '<YOUR_BOT_TOKEN>'
+token = 'YOUR_BOT_TOKEN'
 
 Telegram::Bot::Client.run(token, logger: Logger.new($stderr)) do |bot|
   include RuboFitAPI
