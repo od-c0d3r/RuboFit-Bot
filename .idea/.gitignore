@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../../:\Workshop\microverse\Ruby\RuboFitBot\.idea/dataSources/
+/../../../../../:\Workshop\microverse\Ruby\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

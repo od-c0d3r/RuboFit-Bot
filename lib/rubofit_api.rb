@@ -36,18 +36,18 @@ module RuboFitAPI
       send_that(msg_after2, bot, message) if (time_later % 120).zero?
       send_that(msg_after3, bot, message) if (time_later % 180).zero?
       response = bot.api.getUpdates
-      last_command = response['result'][-1]['message']['text']
+      last_command = response['result'][-1]['update_id']
       next if %w[/remindme].include? last_command
 
-      @flag ||= false
-      bot.logger.info(@flag)
+      break
+      @error_id ||= response['result'][0]['update_id']
       if %w[/stop /sleep].include? last_command
         send_that('ℹ Reminder 🔴OFF', bot, message)
         sleep(1)
         send_that('🤖📡 I\'m Listening', bot, message) if %w[/stop].include? last_command
         break
-      elsif !@flag
-        @flag = !@flag
+      elsif response['result'][-1]['update_id'] > @error_id
+        @error_id = response['result'][-1]['update_id']
         send_that('Rather to /stop me first.', bot, message)
         next
       end

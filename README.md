@@ -1,12 +1,10 @@
-![image](assets/RuboFit.png)
-
-Ending the week with a back pain or a headache had me to think about this
+Ending the week with a back pain or a headache had me to think about this so often an since i know how to make a telegram bot i thought this might be a good idea to practice.
 
 RuboFit is a Telegram bot crafted with Ruby and [Telegram Bot API](https://core.telegram.org/bots/api) along with [atipugin/telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby)
 
 ### Features
 
-reminds you to break your inactivating during your coding sessions and other healthy stuff..
+Reminds you to break your inactivating during your coding sessions and other healthy stuff related to developers.
 
 ### Developmet
 
@@ -45,4 +43,7 @@ its always satisfying to make the code a little bit nicer so i made a simple API
 - Give power to humans to assign their reminders periods.
 - Adding some cool AI Chatting experience with the humans.
 - Refactoring `remind_me` to be more readable.
-- adding games to play Vs Bot.
+- Adding games to play Vs Bot.
+- Improve Documentation. 
+
+<img src="assets\RuboFit.png" width="300px">
