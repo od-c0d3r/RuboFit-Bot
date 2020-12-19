@@ -1,6 +1,4 @@
-
-
-Ending the week with a back pain or a headache had me to think about this so often an since i know how to make a telegram bot i thought this might be a good idea to practice.
+Ending the week with a back pain or/with a headache had me to think about this so often and since latly i learned how to make a telegram bot inspired by [Microverse](https://www.microverse.org/) i thought this might be a good idea to practice my Rubies and Reading documentaions.
 
 RuboFit is a Telegram bot crafted with Ruby and [Telegram Bot API](https://core.telegram.org/bots/api) along with [atipugin/telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby)
 
@@ -19,7 +17,8 @@ Try the bot by adding [@RuboFitBot](https://telegram.me/RuboFitBot) to your tele
   - /start - Booting up
 
   - /remindme - Starting Reminders
-
+    - Every 40 mins reminds you to break your idle state
+    - Reminds you to drink water every so often
   - /stop - Aborting Reminders
 
   - /sleep - Puts RuboFit to sleep.
@@ -27,6 +26,8 @@ Try the bot by adding [@RuboFitBot](https://telegram.me/RuboFitBot) to your tele
   - /dad - Shows RuboFit's Dad infos
 
   - /help - Shows comms list
+
+  
 
 Fork the repo to start development
 
