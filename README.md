@@ -1,3 +1,5 @@
+<img src="assets/screenshot.gif" width="300px" align="right">
+
 Ending the week with a back pain or/with a headache had me to think about this so often and since latly i learned how to make a telegram bot inspired by [Microverse](https://www.microverse.org/) i thought this might be a good idea to practice my Rubies and Reading documentaions.
 
 RuboFit is a Telegram bot crafted with Ruby and [Telegram Bot API](https://core.telegram.org/bots/api) along with [atipugin/telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby)
@@ -7,8 +9,6 @@ RuboFit is a Telegram bot crafted with Ruby and [Telegram Bot API](https://core.
 Reminds you to break your inactivating during your coding sessions and other healthy stuff related to developers.
 
 ### Developmet
-
-<img src="assets/RuboFit.png" width="300px" align="right">
 
 Try the bot by adding [@RuboFitBot](https://telegram.me/RuboFitBot) to your telegram
 
@@ -27,9 +27,9 @@ Try the bot by adding [@RuboFitBot](https://telegram.me/RuboFitBot) to your tele
 
   - /help - Shows comms list
 
-  
-
 Fork the repo to start development
+
+<img src="assets/RuboFit.png" width="300px" align="right">
 
 its always satisfying to make the code a little bit nicer so i made a simple API build obon [atipugin/telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby)
 
