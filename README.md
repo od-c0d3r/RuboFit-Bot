@@ -27,9 +27,11 @@ Try the bot by adding [@RuboFitBot](https://telegram.me/RuboFitBot) to your tele
 
   - /help - Shows comms list
 
+<img src="assets/RuboFit.png" width="300px" align="right">
+
 Fork the repo to start development
 
-<img src="assets/RuboFit.png" width="300px" align="right">
+
 
 its always satisfying to make the code a little bit nicer so i made a simple API build obon [atipugin/telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby)
 
