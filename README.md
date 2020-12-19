@@ -8,7 +8,7 @@ Reminds you to break your inactivating during your coding sessions and other hea
 
 ### Developmet
 
-<img src="assets/RuboFit.png" width="300px" style="float:right;">
+<img src="assets/RuboFit.png" width="300px" align="right">
 
 Try the bot by adding [@RuboFitBot](https://telegram.me/RuboFitBot) to your telegram
 
