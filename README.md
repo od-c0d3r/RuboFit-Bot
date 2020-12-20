@@ -37,7 +37,7 @@ its always satisfying to make the code a little bit nicer so i made a simple API
 
 #### Available methods
 
-`send_that('text'. bot. message)` just change `'text'` to whatever you want to send a message
+`send_that('text', bot, message)` just change `'text'` to whatever you want to send a message
 
 `send_welcome(bot, message)` grouping punch of `send_that` to welcome the user
 
