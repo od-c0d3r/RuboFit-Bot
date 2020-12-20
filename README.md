@@ -52,4 +52,5 @@ its always satisfying to make the code a little bit nicer so i made a simple API
 - Refactoring `remind_me` to be more readable.
 - Adding games to play Vs Bot.
 - Improve Documentation. 
+- Pushing info about 5 min office/desk workouts you can do anywhere.
 
