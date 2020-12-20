@@ -6,7 +6,7 @@ RuboFit is a Telegram bot crafted with Ruby and [Telegram Bot API](https://core.
 
 ### Features
 
-Reminds you to break your inactivating during your coding sessions and other healthy stuff related to developers.
+Reminds you to break your inactivity during your coding sessions and other healthy stuff related to developers.
 
 ### Developmet
 
