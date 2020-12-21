@@ -53,4 +53,4 @@ its always satisfying to make the code a little bit nicer so i made a simple API
 - Adding games to play Vs Bot.
 - Improve Documentation. 
 - Pushing info about 5 min office/desk workouts you can do anywhere.
-
+- Integrate wakatime API for developer daily coding session analysis when requested by developer
